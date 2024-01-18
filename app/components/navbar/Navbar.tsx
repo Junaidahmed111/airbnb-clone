@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <div className="fixed z-10 w-full bg-green-200 shadow-sm">
       <div className="py-4 border-b-[1px]">
-        <Container></Container>
+        <Container>
+          <div className="flex flex-row items-center justify-between gap-3 md:gap-0"></div>
+        </Container>
       </div>
     </div>
   );
