@@ -1,5 +1,9 @@
 import React from "react";
 
+interface ContainerProps {
+  children: React.ReactNode;
+}
+
 const Container = () => {
   return <div>Container!</div>;
 };
