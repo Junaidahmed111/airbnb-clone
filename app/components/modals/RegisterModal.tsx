@@ -5,6 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 import { useState } from "react";
+import Modal from "./Modal";
 
 const RegisterModal = () => {
   const registerModal = useRegisterModal();
@@ -37,7 +38,7 @@ const RegisterModal = () => {
       });
   };
 
-  return <div>RegisterModal</div>;
+  return <Modal />;
 };
 
 export default RegisterModal;
