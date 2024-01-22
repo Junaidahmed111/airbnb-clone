@@ -38,7 +38,7 @@ const RegisterModal = () => {
       });
   };
 
-  return <Modal />;
+  return <Modal disabled={isLoading} />;
 };
 
 export default RegisterModal;
