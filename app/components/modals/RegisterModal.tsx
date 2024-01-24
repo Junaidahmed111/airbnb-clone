@@ -44,8 +44,8 @@ const RegisterModal = () => {
       isOpen={registerModal.isOpen}
       title="Register"
       actionLabel="continue"
-      // onClose={registerModal.onClose}
-      onSubmit={handleSubmit(onSubmit)}
+      onClose={registerModal.onClose}
+      // onSubmit={handleSubmit(onSubmit)}
     />
   );
 };
