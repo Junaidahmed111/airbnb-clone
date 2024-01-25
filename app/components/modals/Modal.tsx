@@ -45,13 +45,13 @@ const Modal: React.FC<ModalProps> = ({
     }, 300);
   }, [onClose, disabled]);
 
-  const handleSubmit = useCallback(() => {
-    if (disabled) {
-      return;
-    }
+  // const handleSubmit = useCallback(() => {
+  //   if (disabled) {
+  //     return;
+  //   }
 
-    onSubmit();
-  }, [onSubmit, disabled]);
+  //   onSubmit();
+  // }, [onSubmit, disabled]);
 
   const handleSecondaryAction = useCallback(() => {
     if (disabled || !secondaryAction) {
